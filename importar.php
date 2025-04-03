@@ -157,9 +157,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['relatorio'])) {
             <label for="relatorio">Selecionar Relatório (HTML):</label>
             <input type="file" name="relatorio" id="relatorio" accept=".html" required>
 
-            <label for="imagens">Imagens do Computador (máx. 5):</label>
-            <input type="file" name="imagens[]" id="imagens" multiple accept="image/*">
-
             <button type="submit">Importar</button>
         </form>
         <div id="mensagem"></div>
